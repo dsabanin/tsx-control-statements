@@ -8,7 +8,7 @@ Typescript compiler plugin - kind of a port of https://www.npmjs.com/package/bab
     - You can check out a workaround [here](./test/tsx-cases/for.tsx)
 - Test it: `yarn && yarn build && cd test && yarn && yarn build && yarn test`
     - This monstroys command will compile and run the tests, some of which will compile the files in `tests/tsx-cases`, which are typescript files with jsx control statements used in them.
-- Typings: `index.ts`
+- Typings: `index.d.ts`
 
 ## What typescript/javascript code is emitted?
 

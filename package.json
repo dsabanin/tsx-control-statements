@@ -5,7 +5,7 @@
   "ts-main": "transform.ts",
   "author": "Konstantin Simeonov <kon.simeonov@protonmail.com>",
   "license": "MIT",
-  "types": "index.ts",
+  "types": "index.d.ts",
   "scripts": {
     "tsc": "tsc",
     "build": "tsc transformer.ts --lib es6 es2017 --target es6 --module commonjs"
